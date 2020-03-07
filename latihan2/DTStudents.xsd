@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DTStudents" targetNamespace="http://tempuri.org/DTStudents.xsd" xmlns:mstns="http://tempuri.org/DTStudents.xsd" xmlns="http://tempuri.org/DTStudents.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbase_kelasc3ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="dbase_kelasc3ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.latihan2.My.MySettings.GlobalReference.Default.dbase_kelasc3ConnectionString" Provider="MySql.Data.MySqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="TableStudentsTableAdapter" GeneratorDataComponentClassName="TableStudentsTableAdapter" Name="TableStudents" UserDataComponentName="TableStudentsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbase_kelasc3ConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="False">
+                    <CommandText>SELECT * FROM `dbase_kelasc3`.`students_view`</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="student ID" DataSetColumn="student ID" />
+              <Mapping SourceColumn="student Name" DataSetColumn="student Name" />
+              <Mapping SourceColumn="address" DataSetColumn="address" />
+              <Mapping SourceColumn="contact" DataSetColumn="contact" />
+              <Mapping SourceColumn="level" DataSetColumn="level" />
+              <Mapping SourceColumn="course" DataSetColumn="course" />
+            </Mappings>
+            <Sources>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DTStudents" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DTStudents" msprop:Generator_DataSetName="DTStudents">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TableStudents" msprop:Generator_UserTableName="TableStudents" msprop:Generator_RowDeletedName="TableStudentsRowDeleted" msprop:Generator_TableClassName="TableStudentsDataTable" msprop:Generator_RowChangedName="TableStudentsRowChanged" msprop:Generator_RowClassName="TableStudentsRow" msprop:Generator_RowChangingName="TableStudentsRowChanging" msprop:Generator_RowEvArgName="TableStudentsRowChangeEvent" msprop:Generator_RowEvHandlerName="TableStudentsRowChangeEventHandler" msprop:Generator_TablePropName="TableStudents" msprop:Generator_TableVarName="tableTableStudents" msprop:Generator_RowDeletingName="TableStudentsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="student_x0020_ID" msprop:Generator_UserColumnName="student ID" msprop:Generator_ColumnPropNameInRow="student_ID" msprop:Generator_ColumnVarNameInTable="columnstudent_ID" msprop:Generator_ColumnPropNameInTable="student_IDColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="student_x0020_Name" msprop:Generator_UserColumnName="student Name" msprop:Generator_ColumnPropNameInRow="student_Name" msprop:Generator_ColumnVarNameInTable="columnstudent_Name" msprop:Generator_ColumnPropNameInTable="student_NameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="address" msprop:Generator_UserColumnName="address" msprop:Generator_ColumnPropNameInRow="address" msprop:Generator_ColumnVarNameInTable="columnaddress" msprop:Generator_ColumnPropNameInTable="addressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="contact" msprop:Generator_UserColumnName="contact" msprop:Generator_ColumnPropNameInRow="contact" msprop:Generator_ColumnVarNameInTable="columncontact" msprop:Generator_ColumnPropNameInTable="contactColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="12" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="level" msprop:Generator_UserColumnName="level" msprop:Generator_ColumnPropNameInRow="level" msprop:Generator_ColumnVarNameInTable="columnlevel" msprop:Generator_ColumnPropNameInTable="levelColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="course" msprop:Generator_UserColumnName="course" msprop:Generator_ColumnPropNameInRow="course" msprop:Generator_ColumnVarNameInTable="columncourse" msprop:Generator_ColumnPropNameInTable="courseColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TableStudents" />
+      <xs:field xpath="mstns:student_x0020_ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

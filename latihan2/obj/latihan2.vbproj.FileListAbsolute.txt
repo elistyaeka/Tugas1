@@ -1,0 +1,36 @@
+E:\latihan2\latihan2\obj\Debug\ResolveAssemblyReference.cache
+E:\latihan2\latihan2\obj\Debug\latihan2.Form1.resources
+E:\latihan2\latihan2\obj\Debug\latihan2.Resources.resources
+E:\latihan2\latihan2\obj\Debug\latihan2.vbproj.GenerateResource.Cache
+E:\latihan2\latihan2\bin\Debug\latihan2.exe
+E:\latihan2\latihan2\bin\Debug\latihan2.pdb
+E:\latihan2\latihan2\bin\Debug\latihan2.xml
+E:\latihan2\latihan2\obj\Debug\latihan2.exe
+E:\latihan2\latihan2\obj\Debug\latihan2.xml
+E:\latihan2\latihan2\obj\Debug\latihan2.pdb
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.exe
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.xml
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.pdb
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.Form1.resources
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.Resources.resources
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.vbproj.GenerateResource.Cache
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.exe
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.xml
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.pdb
+D:\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.exe
+D:\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.pdb
+D:\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.xml
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\ResolveAssemblyReference.cache
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.Form1.resources
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.Resources.resources
+D:\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.vbproj.GenerateResource.Cache
+E:\ \Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.exe
+E:\ \Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.xml
+E:\ \Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.pdb
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.exe
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.pdb
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.xml
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\bin\Debug\latihan2.exe.config
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.CRStudents.rpt
+C:\Users\asus\Documents\Pemro Lanjutan\latihan2\latihan2\obj\Debug\latihan2.FormLaporan.resources
